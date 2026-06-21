@@ -4,8 +4,8 @@
   "description": "MCP server that points an AI agent at a LIVE URL and confirms which secret files are publicly served — exposed .git, .env, JS source maps, backup/SQL dumps, directory listing and dotfiles — by fetching the bytes, not a checklist. Zero deps, read-only.",
   "type": "module",
   "bin": {
-    "web-exposure-mcp": "./scripts/mcp.js",
-    "web-exposure-scan": "./scripts/cli.js"
+    "web-exposure-mcp": "scripts/mcp.js",
+    "web-exposure-scan": "scripts/cli.js"
   },
   "files": [
     "scripts",
